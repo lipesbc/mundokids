@@ -99,8 +99,7 @@ ol{
     
 }
 
-.cards-modas {
-    flex-direction: column;
+.modas {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,6 +107,51 @@ ol{
     padding: 50px;
     gap: 20px;
     margin-top: 70px;
-    font-size: 1.3rem;
+    margin-top: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+
 
 }
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.frases{
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    justify-content: space-between;
+
+}
+
+.frases div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+  .cards-modas{
+    display: flex;
+    gap: 15px;
+    width: 20%;
+    flex-direction: column;
+    font-size: 1em;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+  }
+
+  .linha{
+    display: flex;
+  }
